@@ -6,6 +6,7 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: "Times New Roman", Georgia, Serif;
 }
 
 h1.page-header { font-size: calc(112.5% + 4 * (100vw) / 200); }
@@ -17,3 +18,21 @@ h1.page-header { font-size: calc(112.5% + 4 * (100vw) / 200); }
 footer {
     margin: 50px 0;
 }
+
+
+.relative {
+    position: relative;
+}
+.absolute {
+    right: 30px;
+    bottom: 30px;
+    z-index: 100;
+    position: absolute;
+}
+
+img.absolute {
+    vertical-align: middle;
+    width: 320px;
+    margin-bottom: 40px;
+}
+

@@ -37,5 +37,6 @@ img.absolute {
     vertical-align: middle;
     width: 280px;
     margin-bottom: 20px;
+    margin: 0 auto;
 }
 

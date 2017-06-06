@@ -9,10 +9,7 @@ body {
     font-family: "Times New Roman", Georgia, Serif;
 }
 
-h1.page-header { 
-  font-size: calc(112.5% + 4 * (100vw) / 200); 
-  text-align: center; 
-}
+h1.page-header { font-size: calc(112.5% + 4 * (100vw) / 200); }
 
 .portfolio-item {
     margin-bottom: 25px;
@@ -35,7 +32,7 @@ footer {
 
 img.absolute {
     vertical-align: middle;
-    width: 200px;
+    width: 280px;
     margin-bottom: 40px;
 }
 

@@ -9,7 +9,10 @@ body {
     font-family: "Times New Roman", Georgia, Serif;
 }
 
-h1.page-header { font-size: calc(112.5% + 4 * (100vw) / 200); }
+h1.page-header { 
+  font-size: calc(112.5% + 4 * (100vw) / 200); 
+  text-align: center; 
+}
 
 .portfolio-item {
     margin-bottom: 25px;

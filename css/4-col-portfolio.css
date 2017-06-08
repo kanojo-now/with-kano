@@ -6,7 +6,7 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    font-family: "Times New Roman", Georgia, Serif;
+    font-family: "YakuHanJP", "museo-sans", "YuGothic", "游ゴシック", "ヒラギノ角ゴ Pro W3", "HiraKakuPro-W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", sans-serif;
 }
 
 h1.page-header { 

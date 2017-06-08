@@ -25,17 +25,61 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    
+
       ga('create', 'UA-100593714-1', 'auto');
       ga('send', 'pageview');
-    
-    </script>
 
+    </script>
+  <script type="text/javascript">
+    window.onload = function () {
+var posts = [
+["彼女ともんじゃなう！ ", "pic.twitter.com/IMpIjnHbeI"],
+["橋本環奈とデートなう。 ", "pic.twitter.com/xgA3c3CQuY"],
+["真野恵里菜とデートなう。 ", "pic.twitter.com/XsOI2jb5h3"],
+["彼女とプールなう ", "pic.twitter.com/Mx4916sjne"],
+["顔にヒレがついてる彼女と水族館デートなう ", "pic.twitter.com/iyfqBqOykB"],
+["彼女とプールデートなう ", "pic.twitter.com/TB2dnIld3S"],
+["彼女と昼ごはんデートなう。 ", "pic.twitter.com/qk0t9vTM3b"],
+["志貴とデートなう。 ", "pic.twitter.com/lCyMZADU7B"],
+["彼女とデートなう。 ", "pic.twitter.com/GCz30HtCui"],
+["彼女とデートなう。 ", "pic.twitter.com/o3r9vSwSN5"],
+["ノンスタ井上とデートなう。 ", "pic.twitter.com/U7aJ3ijJyc"],
+["彼女とデートなう。 ", "pic.twitter.com/lHEqlEY1JW"],
+["彼女とペアプロなう。 ", "pic.twitter.com/CfFtuTc174"],
+["彼女とデートなう。 ", "pic.twitter.com/h2ii5j8oeO"],
+["彼女とデートなう。 ", "pic.twitter.com/pw1ikgFkm7"],
+["彼女とプールデートなう。 ", "pic.twitter.com/agACFqivxh"],
+["バナナとデートなう。 ", "pic.twitter.com/GFQjDBVvfI"],
+["彼女とデートなう。 ", "pic.twitter.com/4bMD7UGU1X "],
+["彼女とデートなう。 ", "pic.twitter.com/3zoJNWvSti"],
+["彼女と京都デートなう。 ", "pic.twitter.com/fTGtvLl8SA "],
+["彼女と浅草デートなう。 ", "pic.twitter.com/Rx2Eq8VEKg "],
+["彼女とデートなう。 ", "pic.twitter.com/ChYkJU7Xy8 "],
+["彼女とデートなう。 ", "pic.twitter.com/xgA3c3CQuY "],
+["彼女とデートなう。 ", "pic.twitter.com/cBYhFeWFQz "],
+["彼女とデートなう。 ", "pic.twitter.com/xgA3c3CQuY "],
+["彼女とデートなう。 ", "pic.twitter.com/xgA3c3CQuY "],
+["彼女とお家デートなう😘 ", "pic.twitter.com/Mv9bzTr2S8 "],
+["彼女と温泉デートなう。 ", "pic.twitter.com/gBWMQDlUJu "],
+["彼女とデートなう。", "pic.twitter.com/aVF2M9Lt04 "],
+["俺の奢りで彼女と焼き鳥デートなう。 ", "pic.twitter.com/qffmgUL587"],
+["トラとデートなう。 ", "pic.twitter.com/ZrkBpjgHca  "],
+["仁奈とデートなう。", "pic.twitter.com/bhsyjSCfUL"],
+["彼女と魚人島デートなう。",  "pic.twitter.com/pRK3kfeDLi "],
+	];
+
+      var post = posts[ Math.floor( Math.random() * posts.length ) ] ;
+      var link = '<a href="https://twitter.com/intent/tweet?text=' + post[0] + '%0A%0A' + '&hashtags=今日は誰とデートする' + '%0A' + 'http://dareto.date-now.co/' + '%0A%0A' + post[1] + '"' + 'rel\=\"nofollow\" target=\"_blank\"> <img width=\"240\" src=\"./assets/date-button.png\" alt=\"twitterでついーとする\"></a>';
+      target = document.getElementById("output");
+      target.innerHTML = link;
+    }
+  </script>
     <link href="css/4-col-portfolio.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
 </head>
 
 <body>
+
 
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -43,8 +87,8 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
 
-            <a class="navbar-brand" href="http://kanojo.date-now.co/">彼女とデートなう。</a>
-            <p class="navbar-text navbar-right"><a href="http://kanojo.date-now.co/about.html" class="navbar-link">ABOUT🙏</a></p>
+            <a class="navbar-brand" href="http://kan.date-now.co/">彼女とデートなう。</a>
+            <p class="navbar-text navbar-right"><a href="http://dareto.date-now.co/about.html" class="navbar-link">ABOUT🙏</a></p>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
     </div>
@@ -58,15 +102,23 @@
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">今日は、誰とデートする？</h1>
+
+<center>
+  <p>
+            <div id="output"></div>
+          </p>
+          </center>
         </div>
+
       <div class="sns-top">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://kanojo.date-now.co/" data-text="「彼女とデートなう。」 pic.twitter.com/aVgnFU8uo2" data-hashtags="今日は誰とデートしよう">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fkanojo.date-now.co%2F&layout=button&size=small&mobile_iframe=true&appId=124741117594987&width=59&height=20" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        <a href="http://b.hatena.ne.jp/entry/kanojo.date-now.co/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://dareto.date-now.co/" data-text="「彼女とデートなう。」 pic.twitter.com/aVgnFU8uo2" data-hashtags="今日は誰とデートしよう">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fdareto.date-now.co%2F&layout=button&size=small&mobile_iframe=true&appId=124741117594987&width=59&height=20" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        <a href="http://b.hatena.ne.jp/entry/dareto.date-now.co/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
 
       </div>
     </div>
-    <!-- /.row -->
+   <!-- /.row -->
+
 
     <!-- Projects Row -->
     <div class="row">
@@ -78,9 +130,6 @@
 
             <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">『彼女ともんじゃなう！』<br>って使っていいよ！！！ <a href="https://t.co/IMpIjnHbeI">pic.twitter.com/IMpIjnHbeI</a></p>&mdash; ピンキー☆藤咲彩音 (@PINKY_neko) <a href="https://twitter.com/PINKY_neko/status/842206146471444480">March 16, 2017</a></blockquote>
         </div>
-
-        <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女ともんじゃなう！。%0A%0A pic.twitter.com/IMpIjnHbeI ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
     </div>
 
 
@@ -92,8 +141,6 @@
                         2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?text=橋本環奈とデートなう。%0A%0A pic.twitter.com/xgA3c3CQuY ▷&hashtags=今日は誰とデートする kanojo.date-now.co
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
         <div class="col-md-4 portfolio-item">
@@ -103,8 +150,6 @@
                 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=真野恵里菜とデートなう。%0A%0A pic.twitter.com/XsOI2jb5h3 ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
     </div>
@@ -123,8 +168,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">なんか奇跡的に細めに映ったので顔は微妙でしたが記念に載せます。絶対に「彼女とプールなう」みたいな使い方はやめてください。絶対だぞ。（笑）<a href="https://twitter.com/hashtag/%E5%BD%BC%E5%A5%B3%E3%81%A8%E3%83%87%E3%83%BC%E3%83%88%E3%81%AA%E3%81%86?src=hash">#彼女とデートなう</a> <a href="https://t.co/Mx4916sjne">pic.twitter.com/Mx4916sjne</a></p>&mdash; 廣瀬 聡子 (@satoco_917) <a href="https://twitter.com/satoco_917/status/871701156010934272">June 5, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とプールなう%0A%0A pic.twitter.com/Mx4916sjne  ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
 
         </div>
 
@@ -136,8 +179,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">顔にヒレがついてる彼女と水族館デートなうって使っていいよ🦈 <a href="https://t.co/iyfqBqOykB">pic.twitter.com/iyfqBqOykB</a></p>&mdash; 👻先斗ぺろ👻劇場版ゴキゲン帝国 (@PontoPero) <a href="https://twitter.com/PontoPero/status/857152865000984576">April 26, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=顔にヒレがついてる彼女と水族館デートなう%0A%0A pic.twitter.com/iyfqBqOykB ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -148,8 +189,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">【ともちゃん】彼女とプールデートなうに使っていいよ。笑 <a href="https://t.co/TB2dnIld3S">pic.twitter.com/TB2dnIld3S</a></p>&mdash; 鳥羽水族館（TOBA　AQUARIUM） (@TOBA_AQUARIUM) <a href="https://twitter.com/TOBA_AQUARIUM/status/871647063175462912">June 5, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とプールデートなう%0A%0A pic.twitter.com/TB2dnIld3S ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
 
         </div>
 
@@ -170,8 +209,6 @@
             </div>
 
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女と昼ごはんデートなう。%0A%0A pic.twitter.com/qk0t9vTM3b ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
         <div class="col-md-4 portfolio-item">
             <div class="relative">
@@ -179,8 +216,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">彼氏とデートなう。<br>彼女とデートなう。<br>in原宿<br><br>どっちでも使っていいよ(°▽°)ww<br>(川村マネージャーさんにやれって言われました別に僕がやりたかったわけじゃな <a href="https://t.co/lCyMZADU7B">pic.twitter.com/lCyMZADU7B</a></p>&mdash; 青木志貴 (@eerie_eery) <a href="https://twitter.com/eerie_eery/status/872350376749654017">June 7, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=志貴とデートなう。%0A%0A pic.twitter.com/lCyMZADU7B ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -190,8 +225,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">彼女とデートなう で使っていいよ🤗🤗✨✨<a href="https://twitter.com/hashtag/%E5%BD%BC%E5%A5%B3%E3%81%A8%E3%83%87%E3%83%BC%E3%83%88%E3%81%AA%E3%81%86?src=hash">#彼女とデートなう</a> <a href="https://t.co/GCz30HtCui">pic.twitter.com/GCz30HtCui</a></p>&mdash; 小松美咲 (@komatsumsk) <a href="https://twitter.com/komatsumsk/status/859696973594509312">May 3, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とデートなう。%0A%0A pic.twitter.com/GCz30HtCui ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -208,8 +241,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">彼女とデートなうって使っていいよ <a href="https://t.co/o3r9vSwSN5">pic.twitter.com/o3r9vSwSN5</a></p>&mdash; えま (@twinkles_ema) <a href="https://twitter.com/twinkles_ema/status/861976980719157248">May 9, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とデートなう。%0A%0A pic.twitter.com/o3r9vSwSN5 ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -220,8 +251,6 @@
 
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=ノンスタ井上とデートなう。%0A%0A pic.twitter.com/U7aJ3ijJyc  ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -231,8 +260,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">彼女とデートなう。<br><br>に使っていいよ。 <a href="https://t.co/lHEqlEY1JW">pic.twitter.com/lHEqlEY1JW</a></p>&mdash; 伊瀬茉莉也-Mariya ise- (@Ma_ri_ya_i) <a href="https://twitter.com/Ma_ri_ya_i/status/870527361694945280">June 2, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とデートなう。%0A%0A pic.twitter.com/lHEqlEY1JW ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
 
         </div>
 
@@ -249,8 +276,6 @@
             </div>
 
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とペアプロなう。%0A%0A pic.twitter.com/CfFtuTc174  ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
         <div class="col-md-4 portfolio-item">
@@ -258,8 +283,6 @@
 
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">彼女とデートなうって使ってください卍 <a href="https://t.co/h2ii5j8oeO">pic.twitter.com/h2ii5j8oeO</a></p>&mdash; ✞テアル✞乱操滅裂ガール💋💋 (@tear_ver0000) <a href="https://twitter.com/tear_ver0000/status/866566578292244481">May 22, 2017</a></blockquote>
             </div>
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とデートなう。%0A%0A pic.twitter.com/h2ii5j8oeO ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -277,8 +300,6 @@
                 </blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とデートなう。%0A%0A pic.twitter.com/pw1ikgFkm7 ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
 
         </div>
 
@@ -287,8 +308,6 @@
 
             <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">彼女とプールデートなうって使っていいよ！ <a href="https://t.co/agACFqivxh">pic.twitter.com/agACFqivxh</a></p>&mdash; 七瀬さくら︎🌎┈✈︎ in 海外 (@739ra) <a href="https://twitter.com/739ra/status/855722160286949377">April 22, 2017</a></blockquote>
             </div>
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とプールデートなう。%0A%0A pic.twitter.com/agACFqivxh ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -298,8 +317,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">バナナとデートなう。<br><br>に使っていいよ。<br><br>本日バナナフリッターズ22年振りの新曲「あのね」及び、コンプリートBOXリリース！宜しくです！ <a href="https://t.co/GFQjDBVvfI">pic.twitter.com/GFQjDBVvfI</a></p>&mdash; 山寺宏一 (@yamachanoha) <a href="https://twitter.com/yamachanoha/status/872348216922185728">June 7, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=バナナとデートなう。%0A%0A pic.twitter.com/GFQjDBVvfI ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -311,8 +328,6 @@
                     (@miamia810) <a href="https://twitter.com/miamia810/status/870982503250579457">June 3,
                         2017</a></blockquote>
             </div>
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とデートなう。%0A%0A pic.twitter.com/4bMD7UGU1X ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -330,8 +345,6 @@
                         href="https://twitter.com/KIMAMALabo/status/871714813000400896">June 5, 2017</a>
                 </blockquote>
             </div>
-            <a href="https://twitter.com/intent/tweet?text=彼女とデートなう。%0A%0A pic.twitter.com/3zoJNWvSti ▷&hashtags=今日は誰とデートする kanojo.date-now.co
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -343,8 +356,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">彼女と京都デートなうって使っていいよ♡ <a href="https://t.co/fTGtvLl8SA">pic.twitter.com/fTGtvLl8SA</a></p>&mdash; あくる@6/10 岡山遠征！ (@akr0715) <a href="https://twitter.com/akr0715/status/861841293869068288">May 9, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女と京都デートなう。%0A%0A pic.twitter.com/fTGtvLl8SA ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -354,8 +365,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">彼女と浅草デートなう<br><br>って使っていいよ！！！！<br><br>やっぱり柚本さんって<br>顔出しパネルが似合うなぁ～♡<br>さすがだなぁ～(*´-`*) <a href="https://t.co/Rx2Eq8VEKg">pic.twitter.com/Rx2Eq8VEKg</a></p>&mdash; 柚本愛美◎6日 ナインスパイス🖤 (@Ami_Yumoto) <a href="https://twitter.com/Ami_Yumoto/status/866937908971708416">May 23, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女と浅草デートなう。%0A%0A pic.twitter.com/Rx2Eq8VEKg ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -371,8 +380,6 @@
 
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とデートなう。%0A%0A pic.twitter.com/ChYkJU7Xy8 ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
         <div class="col-md-4 portfolio-item">
@@ -381,8 +388,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">彼女とデートなうって使っていいよ⊂((・⊥・))⊃💕<br><br>2部も盛り上がってこ！<br>みんなの声聞かせて！❤️<a href="https://twitter.com/hashtag/%E9%96%83%E5%85%89%E3%83%AD%E3%83%BC%E3%83%89%E3%82%B7%E3%83%A7%E3%83%BC?src=hash">#閃光ロードショー</a> <a href="https://t.co/lwsuJHIPIL">pic.twitter.com/lwsuJHIPIL</a></p>&mdash; クルミン・モンロー (@yuk1n5) <a href="https://twitter.com/yuk1n5/status/861136966489853953">May 7, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とデートなう。%0A%0A pic.twitter.com/xgA3c3CQuY ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
         <div class="col-md-4 portfolio-item">
@@ -391,8 +396,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">彼女とデートなうって使っていいよ<br><br>流行りにのった<br>なあなあ、彼女にしたいですか？ <a href="https://t.co/cBYhFeWFQz">pic.twitter.com/cBYhFeWFQz</a></p>&mdash; 市川咲 (@saki_chan0410) <a href="https://twitter.com/saki_chan0410/status/853616359141294081">April 16, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とデートなう。%0A%0A pic.twitter.com/cBYhFeWFQz ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
     </div>
     <!-- /.row -->
@@ -406,8 +409,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E5%BD%BC%E5%A5%B3%E3%81%AA%E3%81%86%E3%81%A3%E3%81%A6%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%81%84%E3%82%88?src=hash">#彼女なうって使っていいよ</a>。笑 <a href="https://t.co/glD8c6aEyD">pic.twitter.com/glD8c6aEyD</a></p>&mdash; 莉音(りーめろ先輩) (@ree_patun) <a href="https://twitter.com/ree_patun/status/868397576524935168">May 27, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とデートなう。%0A%0A pic.twitter.com/xgA3c3CQuY ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
         <div class="col-md-4 portfolio-item">
             <div class="relative">
@@ -415,8 +416,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E5%BD%BC%E5%A5%B3%E3%81%A8%E7%84%BC%E8%82%89%E9%A3%9F%E3%81%B9%E6%94%BE%E9%A1%8C%E3%83%87%E3%83%BC%E3%83%88%E3%81%AA%E3%81%86?src=hash">#彼女と焼肉食べ放題デートなう</a>  って使っていいよ<a href="https://twitter.com/hashtag/%E4%BE%BF%E4%B9%97%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F?src=hash">#便乗してみた</a>  #（笑） <a href="https://twitter.com/hashtag/%E7%8F%BE%E5%AE%9F%E3%81%AF%E3%83%9E%E3%83%9E%E3%81%A8?src=hash">#現実はママと</a>… <a href="https://twitter.com/hashtag/%E5%89%8D%E9%AB%AA%E3%83%8F%E3%82%B2?src=hash">#前髪ハゲ</a>  <a href="https://twitter.com/hashtag/%E3%83%87%E3%83%BC%E3%83%88%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E3%81%B2%E3%81%A8RT?src=hash">#デートしてくれるひとRT</a> 🦋 <a href="https://t.co/0ZL2OPR0a7">pic.twitter.com/0ZL2OPR0a7</a></p>&mdash; 莉音(りーめろ先輩) (@ree_patun) <a href="https://twitter.com/ree_patun/status/867663096952668160">May 25, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とデートなう。%0A%0A pic.twitter.com/xgA3c3CQuY ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
 
         </div>
 
@@ -426,8 +425,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">「彼女とお家デートなう😘」って使っていいよ！！！！！！<br><br>(流行りには乗っかるタイプ) <a href="https://t.co/Mv9bzTr2S8">pic.twitter.com/Mv9bzTr2S8</a></p>&mdash; ちゆう* KissBeeWEST🐭🌷 (@OoChiyuUoO) <a href="https://twitter.com/OoChiyuUoO/status/857917039788175360">April 28, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とお家デートなう😘%0A%0A pic.twitter.com/Mv9bzTr2S8 ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
     </div>
@@ -453,8 +450,6 @@
 
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女と温泉デートなう。%0A%0A pic.twitter.com/gBWMQDlUJu ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -469,8 +464,6 @@
             </div>
 
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女とデートなう。%0A%0Apic.twitter.com/aVF2M9Lt04 ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
         <div class="col-md-4 portfolio-item">
             <div class="relative">
@@ -482,8 +475,6 @@
                 </blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=俺の奢りで彼女と焼き鳥デートなう。%0A%0A pic.twitter.com/qffmgUL587▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
     </div>
     <!-- /.row -->
@@ -501,8 +492,6 @@
 
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=トラとデートなう。%0A%0A pic.twitter.com/ZrkBpjgHca  ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
 
@@ -514,8 +503,6 @@
             </div>
 
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=仁奈とデートなう。%0A%0Apic.twitter.com/bhsyjSCfUL  ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
 
         <div class="col-md-4 portfolio-item">
@@ -524,8 +511,6 @@
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">彼女と魚人島デートなうに使ってもいいよ😇💞（笑）<br><br>…ちょっと乗っかってみたかっただけ（笑） <a href="https://t.co/pRK3kfeDLi">pic.twitter.com/pRK3kfeDLi</a></p>&mdash; 椎名煌 (@shiinakira) <a href="https://twitter.com/shiinakira/status/872018099817431040">June 6, 2017</a></blockquote>
             </div>
 
-            <a href="https://twitter.com/intent/tweet?url=http://kanojo.date-now.co/&text=彼女と魚人島デートなう。%0A%0A pic.twitter.com/pRK3kfeDLi ▷&hashtags=今日は誰とデートする
-" rel="nofollow" target="_blank"> <img width="120" src="./assets/date-button.png" alt="twitterでついーとする" class="absolute"></a>
         </div>
     </div>
     <!-- /.row -->

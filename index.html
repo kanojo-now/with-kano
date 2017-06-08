@@ -69,7 +69,7 @@ var posts = [
 	];
 
       var post = posts[ Math.floor( Math.random() * posts.length ) ] ;
-      var link = '<a href="https://twitter.com/intent/tweet?text=' + post[0] + '%0A%0A' + '&hashtags=今日は誰とデートする' + '%0A' + 'http://kanojo.date-now.co/' + '%0A%0A' + post[1] + '"' + 'rel\=\"nofollow\" target=\"_blank\"> <img width=\"240\" src=\"./assets/date-button.png\" alt=\"twitterでついーとする\"></a>';
+      var link = '<a href="https://twitter.com/intent/tweet?text=' + post[0] + '%0A%0A' + '&hashtags=今日は誰とデートする' + '%0A' + 'http://kanojo.date-now.co/' + '%0A%0A' + post[1] + '"' + 'rel\=\"nofollow\"> <img width=\"240\" src=\"./assets/date-button.png\" alt=\"twitterでついーとする\"></a>';
       target = document.getElementById("output");
       target.innerHTML = link;
     }
